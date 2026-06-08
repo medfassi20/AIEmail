@@ -12,8 +12,8 @@ from email.header import decode_header
 import openai
 from langdetect import detect  # Importer la bibliothèque de détection de langue
 
-# Initialisation du client Forefront
-# openai.api_key = "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"  # Remplacez par votre clé API Forefront
+# Initialisation de clé API OpenAI
+# openai.api_key = "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"  # Remplacez par votre clé API OpenAI
 
 # Fonction pour détecter la langue du texte
 def detect_language(text):
